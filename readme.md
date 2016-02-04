@@ -7,7 +7,7 @@ Burning bootloaders is somewhat risky business. If the connections aren't right,
 Burn Preflight verifies the I2C connections between the ISP Arduino and the target ATmega by reading the target ATmega's device information, including the all-important device signiture. The user can read the results in the Arduino compile/install message area and determine whether the values being read from the target ATmega look right or not.
 
 ***
-##How to Install the Burn Preflight Tool. 
+##How to Install the Burn Preflight Tool 
 ***
 The pre-build Burn Preflight Tool was built against Arduino 1.6.5, and is known to run properly with Arduino 1.6.7. No other versions have been tested. All testing and building was done with the Arduino.CC/Genuino IDE.
 
